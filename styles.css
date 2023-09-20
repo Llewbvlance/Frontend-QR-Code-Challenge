@@ -1,0 +1,44 @@
+body{
+    background-color:hsl(212, 45%, 89%) ;
+    font-family: Outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bgbox{
+    background-color:hsl(0, 0%, 100%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.QR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px ;
+}
+
+h2{
+    text-align: center;
+    padding: 0 30px;
+    color:  hsl(218, 44%, 22%);
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 50px 20px 50px;
+    color:  hsl(220, 15%, 55%);
+}
+
